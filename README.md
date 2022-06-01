@@ -1,5 +1,4 @@
 # gqso--turma-914--2022
-Atividade avaliativa da matéria de GQSO(Gestão e qualidade de software)
 
 <h1>Equipe</h1>
 
@@ -11,3 +10,5 @@ Atividade avaliativa da matéria de GQSO(Gestão e qualidade de software)
 
 olá, sou a renata
 <h1>Modify</h1>
+
+New Modify
