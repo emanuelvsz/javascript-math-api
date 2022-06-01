@@ -2,7 +2,7 @@
 Atividade avaliativa da matéria de GQSO(Gestão e qualidade de software)
 
 
-<p> eita </p>
+<p> Eita </p>
 
 olá, sou a renata
 <h1>Modify</h1>
