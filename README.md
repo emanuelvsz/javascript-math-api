@@ -1,4 +1,4 @@
-# Gestão e Qualidade de Software
+# Gestão e Qualidade de Software - Turma 914-2022
 
 #### Equipe:
 
