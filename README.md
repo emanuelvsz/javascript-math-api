@@ -1,14 +1,9 @@
-# gqso--turma-914--2022
+# Gestão e Qualidade de Software
 
-<h1>Equipe</h1>
+#### Equipe:
 
-<p>Jefferson Caio</p>
-<p>Emanuel Vilela</p>
-<p>Renata Beatriz</p>
+  * Emanuel Vilela
+  * Renata Beatriz
+  * Jefferson Caio
 
-<p> Eita </p>
 
-olá, sou a renata
-<h1>Modify</h1>
-
-New Modify
