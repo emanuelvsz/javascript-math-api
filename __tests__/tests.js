@@ -1,10 +1,10 @@
-const {mult} = require('../routes')
+const {sub} = require('../routes')
 
 describe('funções matemáticas da calculadora', () => {
-    it('multiplica dois números', () => {
-        expect(mult(1,2)).toBe(2)
+    it('subtração de dois números', () => {
+        expect(sub(4,2)).toBe(2)
     })
-    it('deu errado', () => {
+    it('Erro!', () => {
         expect(mult('')).toBe(undefined)
     })
 })
