@@ -1,5 +1,5 @@
 const request = require('supertest')
-const app = require('../routes')
+const {app} = require('../routes')
 
 test('teste subtracao', async () => {
     const response = await request(app).get('/subtracao/2/1')
