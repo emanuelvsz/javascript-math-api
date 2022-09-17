@@ -1,10 +1,7 @@
-const {mult} = require('../routes')
+const {somar} = require('../routes')
 
 describe('funções matemáticas da calculadora', () => {
-    it('multiplica dois números', () => {
-        expect(mult(1,2)).toBe(2)
-    })
-    it('deu errado', () => {
-        expect(mult('')).toBe(undefined)
+    it('soma dois números', () => {
+        expect(somar(1,2)).toBe(3)
     })
 })

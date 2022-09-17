@@ -1,11 +1,11 @@
 const express = require('express');
 const app = express();
 
-const multiplicacao = (num1, num2) => {
+const soma = (num1, num2) => {
     if(isNaN(num1) || isNaN(num2)){
         return undefined;
     }else{
-        return num1 * num2;
+        return num1 + num2;
     }
 }
 
@@ -21,7 +21,7 @@ app.get('/multiplicacao/:numeroUm/:numeroDois', (requir, rest) => {
     const numeroUm = +requir.params.numeroUm
     const numeroDois = +requir.params.numeroDois
 
-    resultado = multiplicacao(numeroUm, numeroDois)
+    resultado = soma(numeroUm, numeroDois)
 
     
 
@@ -41,4 +41,4 @@ app.get('/soma/:numeroUm/:numeroDois', (requir, rest) => {
     rest.status(200).json({ resultado: numeroUm+numeroDois })
 })
 
-module.exports = {app: app, mult: multiplicacao} ;
+module.exports = {app: app, somar: soma} ;
