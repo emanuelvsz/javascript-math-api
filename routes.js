@@ -84,4 +84,4 @@ app.get('/subtracao/:numeroUm/:numeroDois', (requir, rest) => {
     rest.status(200).json({ resultado: resultado})
 })
 
-module.exports = {app: app, multiplicar: multiplicacao, dividir: divisao, somar: soma, subtrair: subtracao,} ;
+module.exports = {app: app, multiplicar: multiplicacao, dividir: divisao, somar: soma, subtrair: subtracao} ;
