@@ -23,8 +23,6 @@ app.get('/multiplicacao/:numeroUm/:numeroDois', (requir, rest) => {
 
     resultado = soma(numeroUm, numeroDois)
 
-    
-
     if(resultado == undefined){
         return rest.status(400).send('Erro, corrige ai maluco')
     }
