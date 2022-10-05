@@ -21,7 +21,7 @@ const subtracao = (num1, num2) => {
     if(isNaN(num1) || isNaN(num2)){
         return undefined;
     }else{
-        return num1 + num2;
+        return num1 - num2;
     }
 }
 
@@ -29,7 +29,7 @@ const soma = (num1, num2) => {
     if(isNaN(num1) || isNaN(num2)){
         return undefined;
     }else{
-        return num1 - num2;
+        return num1 + num2;
     }
 }
 
