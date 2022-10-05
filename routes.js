@@ -45,7 +45,7 @@ app.get('/multiplicacao/:numeroUm/:numeroDois', (requir, rest) => {
     rest.status(200).json({ resultado: resultado})
 })
 
-app.get('/divisão/:numeroUm/:numeroDois', (requir, rest) => {
+app.get('/divisao/:numeroUm/:numeroDois', (requir, rest) => {
     const numeroUm = +requir.params.numeroUm
     const numeroDois = +requir.params.numeroDois
 
