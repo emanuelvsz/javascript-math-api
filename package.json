@@ -18,7 +18,8 @@
   "homepage": "https://github.com/emanuelvsz/gqso--turma-914--2022#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.16",
+    "nvm": "0.0.4"
   },
   "devDependencies": {
     "jest": "^28.1.3",
