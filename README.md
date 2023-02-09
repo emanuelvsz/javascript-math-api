@@ -1,10 +1,10 @@
 # Gestão e Qualidade de Software - Turma 914-2022
 
-#### Equipe:
+#### Team:
 
   * Emanuel Vilela
   * Renata Beatriz
   * Jefferson Caio
   * Emylle Victoria
 
-A maior equipe do mundo
+## Servivor em javascript que tem algumas rotas e testes para as mesmas
